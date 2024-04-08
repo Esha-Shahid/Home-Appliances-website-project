@@ -155,8 +155,7 @@ main img {
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
-    justify-content: center;
-    /* margin-top: -5px; */
+    justify-content: cent
     font-size: 15px;
 }
 
@@ -173,8 +172,6 @@ main img {
 
 .info img {
     width: 37px;
-    /* height: 37px; */
-    /* margin-bottom: 10px; */
 }
 
 /* ==== services-section ==== */
@@ -211,7 +208,6 @@ main img {
 .Product {
     width: 18%;
     height: 300px;
-    /* margin-top: 25px; */
     position: relative;
 }
 
@@ -244,7 +240,6 @@ main img {
 
 /* ==== image-gallery section styling ==== */
 .image-gallery {
-    /* height: 600px; */
     width: 100%;
 }
 
@@ -265,13 +260,11 @@ main img {
     height: 100%;
 }
 /*==== footer styling ===== */
-footer {
-    /* height: 300px; */
+footer{
     width: 100%;
     background-color: #0065d3;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
     justify-content: space-evenly;
     border-top-left-radius: 100px;
     padding: 20px;
@@ -299,7 +292,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* justify-content: start; */
     gap: 4px;
     color: #fff;
 }
@@ -319,8 +311,6 @@ footer {
     color: #fff;
 }
 .more-info{
-    /* width: 30%;
-    border: 3px solid purple; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -357,11 +347,6 @@ form button{
     outline: none;
     cursor: pointer;
 }
-/* }
-.fa-regular{
-    font-size: 18px;
-    margin-right: 10px;
-} */
 .copy-right{
     text-align: center;
     width: 100%;
