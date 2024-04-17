@@ -20,7 +20,8 @@ header {
     justify-content: space-around;
     padding-top: 13px;
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
 
@@ -155,7 +156,7 @@ main img {
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
-    justify-content: cent
+    justify-content: center;
     font-size: 15px;
 }
 
@@ -251,33 +252,37 @@ main img {
     justify-content: center;
 }
 
-.img-1{
+.img-1 {
     width: 30%;
     height: 270px;
 }
-.img-1 img{
+
+.img-1 img {
     width: 100%;
     height: 100%;
 }
+
 /*==== footer styling ===== */
-footer{
+footer {
     width: 100%;
     background-color: #0065d3;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-top-left-radius: 100px;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 30px;
+    margin-top: 30px;
 }
 
 .footer-logo {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 20%;
+    padding-left: 20px;
+
 }
 
 .footer-logo img {
@@ -288,29 +293,35 @@ footer{
 .footer-logo p {
     color: #fff;
 }
-.col-2{
+
+.col-2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 4px;
     color: #fff;
 }
-.col-2 h3{
+
+.col-2 h3 {
     padding-bottom: 20px;
 }
-.col-2 p:nth-child(5){
+
+.col-2 p:nth-child(5) {
     width: fit-content;
     border-bottom: 1px solid #fff;
 }
-.col-2 ul li{
+
+.col-2 ul li {
     list-style: none;
     margin-bottom: 10px;
 }
-.col-2 a{
+
+.col-2 a {
     text-decoration: none;
     color: #fff;
 }
-.more-info{
+
+.more-info {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -318,10 +329,12 @@ footer{
     gap: 4px;
     color: #fff;
 }
-.more-info h3{
+
+.more-info h3 {
     margin-bottom: 20px;
 }
-.more-info form{
+
+.more-info form {
     padding-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -329,17 +342,20 @@ footer{
     justify-content: space-between;
     border-bottom: 1px solid #fff;
 }
-form input{
+
+form input {
     width: 100%;
     background: transparent;
     color: #fff;
     border: 0;
     outline: none;
 }
-form input::placeholder{
+
+form input::placeholder {
     color: #fff3f380;
 }
-form button{
+
+form button {
     width: 100%;
     background: transparent;
     color: #fff;
@@ -347,72 +363,111 @@ form button{
     outline: none;
     cursor: pointer;
 }
-.copy-right{
+
+.copy-right {
     text-align: center;
+    margin-top: 40px;
     width: 100%;
     height: 100;
     color: #fff;
 }
-.copy-right h3{
+
+.copy-right h3 {
     color: #fff;
 }
-@media only screen and (max-width:1000px){
-    nav{
+
+@media only screen and (max-width:1000px) {
+    nav {
         display: none;
     }
-    .search{
+
+    .search {
         display: none;
     }
-    header{
+
+    header {
         justify-content: space-between;
         padding: 5px 20px;
     }
-    .menu-icon{
+
+    .menu-icon {
         display: inline;
         width: 30px;
     }
-    .menu-icon img{
+
+    .menu-icon img {
         width: 100%;
     }
-    .header-left{
+
+    .header-left {
         display: flex;
         gap: 10px;
         align-items: center;
     }
-    .main-product{
+
+    .main-product {
         justify-content: flex-start;
     }
-    .Product{
+
+    .Product {
         width: 30%;
     }
 }
-@media only screen and (max-width:700px){
-    .info div{
+
+@media only screen and (max-width:700px) {
+    .info div {
         width: 40%;
-    
+
     }
-    .Product{
+
+    .Product {
         width: 40%;
     }
-    .main-product{
+
+    .main-product {
         justify-content: center;
     }
-    .img-1{
+
+    .img-1 {
         width: 40%;
     }
+
+    footer {
+        /* border: 5px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.footer-logo{
+    width: 200px;
+    justify-content: center;
+    margin: 10px;
 }
-@media only screen and (max-width:500px){
-    .info div{
-        width: 100%;
+.col-2{
+    /* border: 2px solid black; */
+    width: 200px;
+    justify-content: center;
+    margin: 10px;
     
+}
+}
+
+@media only screen and (max-width:500px) {
+    .info div {
+        width: 100%;
+
     }
-    .image-gallery{
+
+    .image-gallery {
         width: 100%;
     }
-    .Product{
+
+    .Product {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 100%;
     }
 }
