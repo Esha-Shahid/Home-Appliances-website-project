@@ -324,7 +324,6 @@ footer {
 }
 
 .more-info {
-    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
