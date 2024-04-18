@@ -114,7 +114,9 @@ nav ul li a {
     color: rgb(116, 116, 116);
     text-decoration: none;
 }
-
+nav ul a.active, a:hover{
+    color: #0065d3;
+}
 .nav-icon {
     display: flex;
     flex-wrap: wrap;
@@ -132,9 +134,9 @@ nav ul li a {
 }
 
 /* <===== nav hover affect =====> */
-.nav ul li::after {
+/* .nav ul li::after {
     color: #0065d3;
-}
+} */
 
 /*==== main section styling ==== */
 main {
@@ -322,6 +324,7 @@ footer {
 }
 
 .more-info {
+    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -372,7 +375,8 @@ form button {
     color: #fff;
 }
 
-.copy-right h3 {
+.copy-right h4 {
+    font-size: 20px;
     color: #fff;
 }
 
