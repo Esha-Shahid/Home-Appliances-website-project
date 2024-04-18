@@ -445,6 +445,7 @@ form button {
     }
 .footer-logo{
     width: 200px;
+    align-items: center;
     justify-content: center;
     margin: 10px;
 }
